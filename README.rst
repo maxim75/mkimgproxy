@@ -7,6 +7,7 @@ Generates URL for imgproxy image processing server
 Use following command line to generate IMGPROXY_KEY and IMGPROXY_SALT
 
 .. code:: bash
+
     echo $(xxd -g 2 -l 64 -p /dev/random | tr -d '\n')
 
 .. code:: python
