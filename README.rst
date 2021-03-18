@@ -2,7 +2,10 @@
 mkimgproxy
 ############
 
-Generates URL for imgproxy image processing server
+Generates URL for imgproxy image processing server. Supports URL signing using key and salt values
+
+ImgProxy infoirmation.
+https://imgproxy.net/
 
 Use following command line to generate IMGPROXY_KEY and IMGPROXY_SALT
 
