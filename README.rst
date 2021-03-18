@@ -13,6 +13,8 @@ Use following command line to generate IMGPROXY_KEY and IMGPROXY_SALT
 
     echo $(xxd -g 2 -l 64 -p /dev/random | tr -d '\n')
 
+Usage example:
+
 .. code:: python
 
     from mkimgproxy import ImgProxy
