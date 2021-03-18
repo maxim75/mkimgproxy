@@ -14,6 +14,7 @@ Use following command line to generate IMGPROXY_KEY and IMGPROXY_SALT
     echo $(xxd -g 2 -l 64 -p /dev/random | tr -d '\n')
 
 Usage example:
+Get URL to image resized to 800x500 pixels with fit cropping, JPEG compression quality = 70 using smart cropping
 
 .. code:: python
 
