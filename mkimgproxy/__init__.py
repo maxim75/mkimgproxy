@@ -1,6 +1,6 @@
 """Generates URL for imgproxy image processing server"""
 
-__version__ = '0.3'
+__version__ = '0.4'
 
 import hmac
 import hashlib
@@ -21,7 +21,6 @@ class ImgProxy:
         for command in processing_options:
             processing_options_str += f"{command}:{processing_options[command]}/"
 
-        print(processing_options_str)
         path = f'/{processing_options_str}/{b64_url}'
         if extension is not None:
             path += f'.{extension}'
